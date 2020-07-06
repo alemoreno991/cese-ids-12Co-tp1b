@@ -34,6 +34,19 @@
 
 /*=====[Implementations of private functions]================================*/
 
+/*!
+ *  @brief Funcion principal del programa
+ *
+ *  @param argc Establece la cantidad de parametros introducidos por linea de
+ *  comandos
+ *  @param argv Arreglo de punteros a strings. Cada uno de ellos hace 
+ *  referencia a un comando ingresado por linea de comandos.
+ *
+ *  @return 
+ *      @li 0 Exito
+ *      @li 1 Error
+ *
+ */
 int main(int argc, char *argv[]) {
     char cadena[2048];
 
